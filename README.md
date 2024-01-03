@@ -1,5 +1,5 @@
 # KeyOptimizer
-Makes improvements to your keyboard so you too can become a keyboard ninja™.
+**Makes improvements to your keyboard so you too can become a keyboard ninja™.**
 
 ## How it works
 This script makes holding the down the Nordic AltGr key transforms the letter keys on the home row into navigation keys (arrow keys /del/home/end/pgup/pgdn). It moves Enter, Backspace and Delete right below the home row. And lets you execute (Undo/Redo/Copy/Cut/Paste) without twisting your left pinky to reach the Ctrl key. With this simple AHK script you have all you need to turn your keyboard into a powerhouse of easily accessible shortcuts.
