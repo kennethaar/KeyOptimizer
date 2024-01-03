@@ -20,8 +20,7 @@ Thanks to T Kayne in the AHK Heroes group for the idea. See his much more advanc
 #MaxThreadsPerHotkey 1
 
 ;------------------------------------------------------------------------------
-; Add ICON to your tray. REMEMBER to put an ICO file in same folder as the script.
-
+; Adds ICON to your tray. REMEMBER to put the ICO file in same folder as the script.
 ;------------------------------------------------------------------------------
 
 TraySetIcon("Icon-KeyOptimizer.ico")
@@ -29,7 +28,7 @@ TraySetIcon("Icon-KeyOptimizer.ico")
 ;------------------------------------------------------------------------------
 ; Icon Tip
 ;------------------------------------------------------------------------------
-A_IconTip := "KEYOPTIMIZER`nUse AltGr to trigger:`nW,A,S,D moves`nH(Home)`nE(End)`nU(PageUp)`nI(PageDown)`nB(Backspace)`nN(Enter)`nM(Backspace)`n,(Del)"
+A_IconTip := "KEYOPTIMIZER`nUse AltGr to trigger:`nW,A,S,D moves`nH(Home)`nJ(End)`nU(PageUp)`nI(PageDown)`nB(Backspace)`nN(Enter)`nM(Backspace)`n,(Del)"
 
 
 ;------------------------------------------------------------------------------
@@ -43,28 +42,28 @@ A_IconTip := "KEYOPTIMIZER`nUse AltGr to trigger:`nW,A,S,D moves`nH(Home)`nE(End
 ;------------------------------------------------------------------------------
 ; AltGr Navigate line
 ;------------------------------------------------------------------------------
-; <^>!j::end		; Remove the first ";" on this line if you have not remapped E with J. and add a ; to the start of the next line.
-<^>!e::end 			; My E is right besides the H key, since it has swithced place with J to make it more efficient.
+<^>!j::end		  ; J = End 
+;<^>!e::end 		; My E is right besides the H key, So for me this key binding is more logical and in the right place.
 <^>!h::home			; H = Home
 
 ;------------------------------------------------------------------------------
 ; AltGr Navigate page
 ;------------------------------------------------------------------------------
-<^>!u::PgUp			; U = pageUp
-<^>!i::PgDn			; I = Page down
-<^>!q::esc
+<^>!u::PgUp			; U = PageUp
+<^>!i::PgDn			; I = PageDown
+<^>!q::esc      ; Q = Esc
 
 ;------------------------------------------------------------------------------
 ; AltGr Edit
 ;------------------------------------------------------------------------------
-<^>!,::delete		; , = Delete
+<^>!,::delete		  ; , = Delete
 ;~ <^>!u::insert 	; I detest the insert key so it is turned off...
 <^>!m::backspace	; M = Backspace (Merge)
-<^>!n::enter		; N = eNter
-<^>!c::^c			; More ergonomic Copy 	- Ctrl + C (ALtGr+C)
-<^>!x::^x			; More ergonomic Cut 	- Ctrl + X (ALtGr+X)
-<^>!y::^y			; More ergonomic Redo 	- Ctrl + Y (ALtGr+Y)
-<^>!v::^v			; More ergonomic Paste	- Ctrl + V (ALtGr+V)
-<^>!z::^z			; More ergonomic Undo	- Ctrl + Z (ALtGr+Z)
+<^>!n::enter		  ; N = eNter
+<^>!c::^c			    ; More ergonomic Copy 	- Ctrl + C (ALtGr+C)
+<^>!x::^x			    ; More ergonomic Cut 	- Ctrl + X (ALtGr+X)
+<^>!y::^y			    ; More ergonomic Redo 	- Ctrl + Y (ALtGr+Y)
+<^>!v::^v			    ; More ergonomic Paste	- Ctrl + V (ALtGr+V)
+<^>!z::^z			    ; More ergonomic Undo	- Ctrl + Z (ALtGr+Z)
 
 return
