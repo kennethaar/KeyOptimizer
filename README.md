@@ -14,6 +14,10 @@ If you don't have the AltGr key, but a regular right alt key, you might be out o
 There is absolutely no warranty whatsoever. None, zero, zilch. If this script eats your computer. Well, too bad. There is nothing I can do about it. But please let me know of any issues and I can look into it. Who knows, We might even solve a bug or two together
 
 ### Installing
+EXE version:
+1. Just download and double click. In your tray you should see a keyboard icon. Hovering over it should show you some of the keys and what they do.
+
+AHK version:
 1. To install, first install AutoHotKey V2 from here: https://www.autohotkey.com/
 2. Download the file KeyOptimizer.ahk and Icon-KeyOptimizer.ico and put them in the sam folder
 3. Double-click on the KeyOptimizer.ahk The script should be running. In your tray you should see a keyboard icon. Hovering over it should show you some of the keys and what they do.
