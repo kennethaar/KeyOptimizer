@@ -10,7 +10,7 @@ It takes a little time to get used to, but it is comfortable, fast and requires 
 ## Warning
 If you don't have the AltGr key, but a regular right alt key, you might be out of luck, since it could seriously mess with other applications. This is because many apps use Alt as the accelerator key.
 
-##Warranty
+## Warranty
 There is absolutely no warranty whatsoever. None, zero, zilch. If this script eats your computer. Well, too bad. There is nothing I can do about it. But please let me know of any issues and I can look into it. Who knows, We might even solve a bug or two together
 
 ### Installing
