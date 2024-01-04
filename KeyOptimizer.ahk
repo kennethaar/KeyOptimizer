@@ -56,14 +56,17 @@ A_IconTip := "KEYOPTIMIZER`nUse AltGr to trigger:`nW,A,S,D moves`nH(Home)`nJ(End
 ;------------------------------------------------------------------------------
 ; AltGr Edit
 ;------------------------------------------------------------------------------
-<^>!,::delete		  ; , = Delete
+<^>!,::delete		; , = Delete
 ;~ <^>!u::insert 	; I detest the insert key so it is turned off...
 <^>!m::backspace	; M = Backspace (Merge)
-<^>!n::enter		  ; N = eNter
-<^>!c::^c			    ; More ergonomic Copy 	- Ctrl + C (ALtGr+C)
-<^>!x::^x			    ; More ergonomic Cut 	- Ctrl + X (ALtGr+X)
-<^>!y::^y			    ; More ergonomic Redo 	- Ctrl + Y (ALtGr+Y)
-<^>!v::^v			    ; More ergonomic Paste	- Ctrl + V (ALtGr+V)
-<^>!z::^z			    ; More ergonomic Undo	- Ctrl + Z (ALtGr+Z)
+<^>!n::enter		; N = eNter
+<^>!c::^c			; More ergonomic Copy 			- Ctrl + C (ALtGr+C)
+<^>!x::^x			; More ergonomic Cut 			- Ctrl + X (ALtGr+X)
+<^>!y::^y			; More ergonomic Redo 			- Ctrl + Y (ALtGr+Y)
+<^>!v::^v			; More ergonomic Paste			- Ctrl + V (ALtGr+V)
+<^>!z::^z			; More ergonomic Undo			- Ctrl + Z (ALtGr+Z)
+<^>!å::^a			; More ergonomic Select all		- Ctrl + A (ALtGr+Å)
+<^>!t::^t			; More ergonomic New tab		- Ctrl + T (ALtGr+T
+<^>!k::^k			; More ergonomic link/urlfield 	- Ctrl + T (ALtGr+T
 
 return
