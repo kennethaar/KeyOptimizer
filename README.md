@@ -4,24 +4,24 @@
 This script makes holding the down the Nordic AltGr key transform the letter keys on and around the home row into navigation and edit keys:
 
 ### Navigation
-AltGr+W = Up↑
-AltGr+A = Left←
-AltGr+S = Down↓
-AltGr+D = Right→
-AltGr+H = Home←
-AltGr+J = End→
-AltGr+U = Page↑
-AltGr+I = Page↓
+- AltGr+W = Up↑
+- AltGr+A = Left←
+- AltGr+S = Down↓
+- AltGr+D = Right→
+- AltGr+H = Home←
+- AltGr+J = End→
+- AltGr+U = Page↑
+- AltGr+I = Page↓
 
 ### Editing
-AltGr+M = Backspace
-AltGr+N = Enter
-AltGr+ . = Select All
-AltGr+ , = Delete
-AltGr+C = Copy
-AltGr+V = Paste
-AltGr+X = Cut
-AltGr+P = Print Screen
+- AltGr+M = Backspace
+- AltGr+N = Enter
+- AltGr+ . = Select All
+- AltGr+ , = Delete
+- AltGr+C = Copy
+- AltGr+V = Paste
+- AltGr+X = Cut
+- AltGr+P = Print Screen
 
 To suspend hotkeys use AltGr+1
 
@@ -36,7 +36,7 @@ There is absolutely no warranty whatsoever. None, zero, zilch. If this script ea
 
 ### Installing
 EXE version:
-1. Just download and double click. In your tray you should see a keyboard icon. Hovering over it should show you some of the keys and what they do.
+1. Just download the KeyOptimizer.exex file and doubleclick on it. In your tray you should see a keyboard icon. Hovering over it should show you how to suspend and reactivate it.
 
 AHK version:
 1. To install, first install AutoHotKey V2 from here: https://www.autohotkey.com/
